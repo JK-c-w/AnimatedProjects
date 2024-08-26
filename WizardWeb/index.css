@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+  background-color:white;
+  overflow-x: hidden;
+}
+ nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:20px 50px;
+}
+nav .right{
+    display: flex;
+    gap: 50px;
+}
+nav .left{
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
+}
+nav i{
+    transform: rotate(45deg);
+}
+nav button{
+    padding: 0px 10px;
+    transform: translateY(-10px);
+    border-radius: 5px;
+    border: 1px solid  darkgray;
+    background-color: white;
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:0px 10px ;
+}
+.main .left{
+    padding-left: 50px;
+    padding-top: 10px;
+
+}
+.main .left h1{
+    font-size: 60px;
+    font-weight: 100;
+    word-spacing: 10px;
+}
+.main .left p{
+    padding-top: 10px;
+    word-spacing: 5px;
+}
+.main .left button{
+    padding:10px 30px;
+    background-color:black;
+    border-radius: 5px;
+    margin-top: 10px;
+    border-style: none;
+    color: white;
+    letter-spacing: 2px;
+} 
+.main .right{
+    padding: 0px 50px;
+}
+.main .right img{
+    width: 400px;
+    height: 360px;
+}
+.comp{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    align-items: center;
+    padding:0px 55px;
+    justify-content: space-between;
+}
+.comp img{
+    width: 110px;
+    height: 100px;
+    transform: translateY(-10px);}
+.comp:nth-child(1){
+    transform: translateY(0px);
+}    
+.services{
+    width: 100%;
+    padding: 50px 50px;
+}
+.services .high{
+     display: flex;
+     width: 100%;
+     gap: 50px;
+}
+.services .high div{
+    background-color: rgb(113, 230, 113);
+    font-size: 30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-style: none;
+}
+.services .high p{
+    word-spacing: 3px;
+}
+
+.services .mid {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+.services .low {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px
+}
+.services  .elem{
+   width: 500px;
+   height: 250px;
+   border: 1px solid black;
+   border-bottom: 5px solid black;
+   border-radius: 10px;
+}
+.services #A,#B,#C,#D{
+   padding: 20px;
+   position: relative;
+}
+.services #B ,#C{
+    color: white;
+}
+.services img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    right: 5px;
+    top:5px;
+}
+.services #A span ,#D span {
+    background-color: rgb(113, 230, 113);
+    font-size: 30px;
+    font-weight: 400;
+    padding: 0px 5px;
+}
+.services #B span ,#C span {
+    background-color: rgb(248, 250, 248);
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 0px 5px;
+}
+.services .end{
+    display: flex;
+    gap: 5px;
+    margin-top: 80px;
+    align-items: center;
+}
+.services #A .btn,#D .btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: black;
+    bottom: 30px;
+}
+.services #B .btn ,#C .btn{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    bottom: 30px;
+}
+.services #A .btn i ,#D .btn i{
+    color: rgb(113, 230, 113);
+     margin-left:10px;
+}
+.services #B .btn i ,#C .btn i{
+     color: black;
+     margin-left:10px;
+}
+.services  #B ,#C{
+    background-color: black;
+}
+
+.prop{
+    margin: 10px 30px;
+    width: calc(100%-30px);
+    background-color: darkgray;
+    border-radius: 10px;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.prop img{
+    width: 500px;
+    height: 200px;
+}
+.prop .btn{
+    padding:10px 30px;
+    background-color:black;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    letter-spacing: 2px;  
+    display: inline-block; 
+    margin-top: 10px;
+}
+.case{
+    margin: 30px 30px;
+    width: calc(100%-30px);
+}
+.case .top{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+} 
+.case .top h1{
+    background-color: rgb(113, 230, 113);
+    font-size: 30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-style: none;
+}
+.case .bot{
+    border-radius: 10px;
+    background-color: black;
+    margin-top: 30px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+/* .case .high  i{
+    color:rgb(113, 230, 113);
+} */
+
+ 
+
+
